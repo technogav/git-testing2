@@ -1,0 +1,87 @@
+﻿***Version 4.2 Release Date: June 17 2016
+- feature: 'hideControlsUnder' parameter has been added which will allow you to hide the 'next' & 'previous' navigation buttons under the resolution you set.
+
+***Version 4.1 Release Date: April 30, 2016
+- new css3 animations
+- bug fix: a problem appeared when the slider had only one slide and the browser was resized
+
+***Version 4.0 Release Date: April 29, 2016
+- feature: over 180 prebuilt CSS3 animation for layers
+- feature: perpetuum slider version
+- feature: play/pause button
+- feature: improved fullscreen slider
+- feature: new touchscreen navigation system
+- feature: pause slider when open a new tab
+- feature: new examples
+
+
+- feature: optional particular auto-play parameter for each slide
+- feature: new parameters for fade/slide navigation between the slides: duration and easing
+- feature: improved and simplified usage as FullScreen Background: 'setAsBg' parameter was added 
+
+
+***Version 3.3 Release Date: November 22, 2015
+- updated the jQuery version
+
+
+***Version 3.3 Release Date: March 18, 2015
+- update to help documentation
+
+
+***Version 3.2 Release Date: April 11, 2014
+- bug fix: fixed a bug for exit layer animation
+
+
+***Version 3.1 Release Date: February 11, 2014
+- new parameter added
+
+
+***Version 3.0 Release Date: February 05, 2014
+- feature: CSS3 transitions for layers
+- feature: text and images as layers, all responsive
+- feature: improved Ken Burns Effect
+- feature: exit animation parameters for layers
+- feature: intermediate animation parameters (animation between final position and exit position) for layers
+- feature: optional particular auto-play parameter for each slide
+- feature: new parameters for fade/slide navigation between the slides: duration and easing
+- feature: improved and simplified usage as FullScreen Background: 'setAsBg' parameter was added 
+
+
+***Version 2.2 Release Date: April 11, 2013
+- bug fix: fixed a problem for responsive behavior, which appeared when the product was inserted in a div with width set in percent
+
+
+***Version 2.1 Release Date: January 23, 2013
+- updated the product to be compatible with jQuery 1.9
+- fixed a compatibility problem between jQuery 1.9, IE8 and our product.
+
+
+***Version 2.0 Release Date: January 17, 2013
+- feature: added 'fade' for slides transition, along side with the existing 'slide' transition.
+
+
+***Version 1.7 Release Date: December 12, 2012
+- removed excanvas.compiled.js loading for IE7 & IE8
+
+
+***Version 1.6 Release Date: September 18, 2012
+- bug fix: fixed a small bug appearing when the circle is hidden.
+
+
+***Version 1.5 Release Date: September 1, 2012
+- updated the product to work with jQuery 1.8, too 
+
+
+***Version 1.4 Release Date: August 3, 2012
+- code improvement: CSS modification
+
+
+***Version 1.3 Release Date: July 3, 2012
+- feature: new parameter called "pauseOnMouseOver" which if set to false will disable the autoPlay pause on MouseOver.
+
+
+***Version 1.2 Release Date: June 16, 2012 
+- bug fix: fixed a small bug on IE9
+
+
+***Version 1.0 Release Date: June 14, 2012 

@@ -1,0 +1,152 @@
+@charset "utf-8";
+/***colors
+Dark Yellow  => #f1cb43
+Dark Blue    => #424671
+Vibrent Green => #59be22
+
+
+    font-family: 'Roboto Slab', serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Yellowtail', cursive;
+
+
+***/
+/*****************GENERAL******************/
+#myCarousel.carousel, slide{
+      width: 100%;
+     
+      margin: 20%;
+  }
+  .carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+
+h1 img{margin-top:6%;}
+h1, h2, h3 ,h4{font-family: 'Roboto Slab', serif;}
+p{font-family: 'Roboto', sans-serif;}
+img{width: 100%;}
+hr{width: 60%; margin-left:15%;}
+i{color:#424671;}
+section{padding: 70px 0 70px 0; min-height:620px;}
+#meet_the_partners{min-height:760px;}
+a i:hover{color:#59be22;}
+.display{display:block;}
+.hide{display:none;}
+.bottom-shadow{-webkit-box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.75)
+}
+.slogan{font-family: 'Yellowtail', cursive; float:left;}
+
+.isStuck{z-index:4999;}
+
+.social-media-tab{ height: 80px; position:fixed; top:260px; right:0px; z-index:1001;}
+
+.top-blue-inset-shadow{-webkit-box-shadow: inset -3px 21px 47px -18px rgba(0,0,0,0.87);
+-moz-box-shadow: inset -3px 21px 47px -18px rgba(0,0,0,0.87);
+box-shadow: inset -3px 21px 47px -18px rgba(0,0,0,0.87);
+}
+
+.top-shadow{-webkit-box-shadow: 0px -3px 12px 0px rgba(0,0,0,0.67);
+-moz-box-shadow: 0px -3px 12px 0px rgba(0,0,0,0.67);
+box-shadow: 0px -3px 12px 0px rgba(0,0,0,0.67);
+}
+/****************header*******************/
+.phone{padding-bottom: 20px;font-size:1.2em;text-align:right;}
+.top-strip{margin-top: 30px;width:100%;  background:#f1cb43;}
+.slogan{padding-top:16%;font-size:2.1em;text-align:left;color:#ccc;}
+
+
+/****************NAVBAR*********************/
+.navbar{border-radius:0px;margin-bottom:0; border-bottom:2px solid #59be22;}
+.navbar-inverse{margin-bottom:0px; background:#424671; padding:0;height:auto;}
+.nav-container{margin:0; padding:0;}
+.navbar-header{color:red; margin-bottom:0;height:auto; }
+.nav-justified{margin-top:3px;}
+.nav-justified li a{height:auto; color:#eee; opacity:.7;}
+.nav-justified li a:hover{color:#fff; opacity:1;}
+.navbar{height:auto;color:red;}
+.nav{height:auto;margin-bottom:0;padding-bottom:0;width:65%; float:right;}
+.absolut-header{position:relative;z-index:2000;}
+#Browns_motor_factors_header{background-color:#eee;background-image:url('../img/diagonal-tex.png'); min-height:100px;}
+
+
+
+.nav-justified li a{margin:0 15px 0 15px;font-size:1em;}
+
+/****************SIDE-NAV-BAR*********************/
+.hover-nav{height: 100%; width: 180px; position:fixed; left:0; top:0px;z-index:1005;opacity:0;}
+.side-navbar{height: 100%; width: 180px; background-color:#eee; background-image:url('../img/diagonal-tex.png'); position:fixed; left:0; top:0px;z-index:500;display:none;
+border-left:2px solid #333;}
+.side-navbar{padding-top:90px;}
+.side-navbar ul{margin-left:0px; padding-left:0px; width: 100%; margin-top:60px;}
+.side-navbar ul li{list-style-type:none; width:90%;margin:3px 5% 3px 5%;}
+.side-navbar ul li button{ width:100%;margin:0;}
+.btn-success {padding: 0px; font-size: 1.1em;}
+.tab{position:fixed; top:260px; right:7px; z-index:400;left:0; max-width: 55px;}
+/*****************HOME**********************/
+/**header**/
+.phone{margin-top:70px;}
+.top-strip{width:100%; height:12px; background:#f1cb43;}
+.tool-auto{margin: 5% 15% 5% 20%;}
+.tool-auto button{margin: 15px; padding: 8px 30px 8px 30px; min-width:25%;}
+
+/**main body**/
+#browns_auto_homepage_top{padding:0; }/**/
+#myCarousel{margin-top:10px;}
+.carousel-control.left, .carousel-control.right {background-image: none;}
+.front-article-image{overflow: hidden;}
+.front-article-image img{border: 2px solid #555;}
+.partner-logos{margin-top:140px;}
+.opening p{text-align:justify; font-size:1.3em; line-height: 28px;}
+.opening h1{font-size:2.7em; margin-bottom:18%;}
+/**featured products**/
+#browns_featured_auto_products{margin-top:8%; background-color: #eee; background-image:url('../img/spanner-pattern.png');}
+.featured_auto_products div{padding: 4%;}
+.featured_auto_products div img{border: 1px solid #8A8A8A;}
+.carousel-inner{max-width:80%;}
+.carousel slide{max-width:80%;}
+#myCarousel{max-width:80%;}
+/**footer**/
+footer{min-height: 450px; background-color: #333; background-image:url('../img/dimple-texture.png');}
+.contact-footer h2{color:white;}
+.contact-footer{padding-right:90px;margin-right:90px;}
+/*****************ABOUT**********************/
+/**main body**/
+#browns_motor_factors_about{
+     background-image:url('../img/wireframeCar.jpg');
+     background-repeat:no-repeat;
+     background-size:82%;
+     background-position:bottom;    
+}
+#meet_the_teamie{background-color:#424671; min-height:700px; background-image:url('../img/spanner-pattern.png');padding:50px 0 50px 0;
+}
+.slider_heading{text-align:right; margin-bottom: 7%; color:#292929;}
+.slider_body{font-size:1.3em; line-height:28px; text-align:right;color:#292929;}
+.nav-tabs>li>a:hover, .nav>li>a:focus, .nav>li>a:hover, .nav>li>a:active, .nav>li>a .active{
+    color:white; 
+    border-color: transparent !important;
+    background-color: #3862E9 !important;
+}
+
+.active{background: #515784; color:#f1cb43;}
+
+/***********************************PRODUCTS******************************/
+.price{color:red;} 
+.product_heading{margin-bottom: 70px;}
+.thumbnail{max-width: 300px; height:500px; overflow:hidden;margin-left:18%;}
+.thumbnail_img{margin-left:30px;}
+table{width:80%;margin-left:10%;}
+tr{margin-top:20px;}
+td{padding: 10px;}
+
+
+/*************************CONTACT*************************/
+.formbox{padding: 20px; 
+          border-radius: 7px; 
+          background-color: #eee;
+          border: 1px solid #BBBBBB;}
+          
+          /*********************ADMIN**********************/
+          .admin_headings{background:#f1cb43;}
