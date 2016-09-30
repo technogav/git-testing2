@@ -174,7 +174,7 @@
                                              Serving Kildare with <STRONG>professional</STRONG><br>
                                              advice and high quality parts 
                                              <br>for over half a decade."<br />
-                                             </i></div>
+                                             </i>
                                         </div>
                                    <div id="bannerscollection_zoominout_photoText176" class="bannerscollection_zoominout_texts">
                                         <div class="bannerscollection_zoominout_text_line transp10" 
@@ -244,8 +244,8 @@
                </div>
                     <div class="reveal-small">
                          <img class="absolute" src="img/mobile-splash.jpg" width="320" height="480" alt=""/> 
-                         <div class="relative"><h1>Browns
-                         Auto<br>&amp;<br>
+                         <div class="relative"><h1 id="mobileHero">Browns
+                         Motor Factors<br>&amp;<br>
                          Tool Hire</h1></div>
                     </div>
              </div>
@@ -253,10 +253,10 @@
           
           <!-- buttons-->
           <div class="row">
-               <div class="col-md-8 col-md-offset-2 tool-auto">
+               <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 tool-auto">
                     <a href="index.php"><button class="btn btn-success btn-lg">Browns Motor Factors</button></a>
                     <a href="tool-hire.php"><button class="btn btn-primary btn-lg">Browns Tool Hire</button></a>
-                    <button class="btn btn-primary btn-lg product-list">Browns Product List</button>
+                    <button class="btn btn-primary btn-lg product-list hide-small">Browns Product List</button>
                </div>
           </div>
           <!--row-->
@@ -270,7 +270,7 @@
      <div class="container-fluid">
           <div class="row">
                <div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 opening">
-                    <h1>Browns Auto Parts</h1>
+                    <h1 id="indexHeading">Browns Auto Parts</h1>
                     <p>Browns Motor Factors stock <strong>high quality</strong> car parts and auto accessories from quality automotive parts suppliers and some of the <strong>world’s best brands</strong>. The range of auto parts covers everything from car stereos and phone accessories to hand tools, batteries, filters, lights and performance upgrades.</p>
                </div>
                <!--front-image-->
@@ -278,7 +278,7 @@
                
           </div>
           <div class="row"><!--//bootstrap slider for logos-->
-               <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 partner-logos">
+               <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 partner-logos">
                     <div class="container">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -287,11 +287,10 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="img_chania.jpg" alt="Chania">
-      </div>
+           <img src="img/logo-panel1.jpg" width="800" height="67" alt=""/> </div>
 
       <div class="item">
-        <img src="img_chania2.jpg" alt="Chania">
+        <img src="img/logo-panel2.jpg" width="800" height="67" alt=""/>
       </div>
     
       
