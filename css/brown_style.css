@@ -150,3 +150,16 @@ td{padding: 10px;}
           
           /*********************ADMIN**********************/
           .admin_headings{background:#f1cb43;}
+.relative{width:30%; background:green; height:auto; position:absolute; top:0; left:20%;}
+.absolute{position: absolute;}          
+ @media only screen and (max-width : 768px) {
+     .hide-small{ display:none;}
+     .reveal-small{ display: block;}
+    }
+    
+    @media only screen and (max-width : 992px) {
+         
+         .hide-med{display:none;}
+         .display-med{display:block;}
+         
+    }

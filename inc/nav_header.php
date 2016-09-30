@@ -1,20 +1,18 @@
  <header id="Browns_motor_factors_header" class="absolut-header"><!--top section-->
-         <div class="container-fluid" style="margin:0;padding:0;"> 
+         <div class="container-fluid hide-small" style="margin:0;padding:0;"> 
                <div class="row">
                     <div class="col-lg-12 col-md-12 ">
-                         <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 ">
+                         <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-0">
                               <h1><img src="img/brownsLogo.png" alt="browns_logo"/></h1>
                          </div>
-                         <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1" style="padding:0;">
+                         <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1" style="padding:0;">
                               <div class="top-strip"></div>
-                              <div class="col-lg-5 col-md-5 ">
-                                   <p class="slogan">"Driving Precision Home!"</p>
-                              </div>
-                              <div class="col-lg-3 col-md-3 phone"><i class="fa fa-phone" aria-hidden="true"></i>
+                             
+                              <div class="col-lg-3 col-md-3 col-sm-3phone"><i class="fa fa-phone" aria-hidden="true"></i>
 045 522526</div>
-                              <div class="col-lg-3 col-md-3 phone"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-
+<div class="col-lg-3 col-md-3 col-sm-3phone"><i class="fa fa-envelope-o" aria-hidden="true"></i>
 Eddie@team.ie</div>
+                              
                          </div>
                     </div>
                </div><!--row-->
@@ -38,7 +36,8 @@ Eddie@team.ie</div>
                           <ul class="nav nav-pills nav-justified">
                             <li><a class="active" href="index.php">Home</a></li>
                             <li><a href="about.php">About Us</a></li>
-                            <li><a href="tool-hire.php">Tool Hire</a></li>
+                            <li><a href="tool-hire.php">
+                            Tool Hire</a></li>
                             <li class="product-list"><a href="products.php">Products</a></li>
                             <li><a href="splash.php">Deals</a></li>
                             <li><a href="contact.php">Contact</a></li>
