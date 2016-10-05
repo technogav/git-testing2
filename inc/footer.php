@@ -74,7 +74,63 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAIlBmEEBgms_hhbcyU-uNciPRknniNQY&callback=initMap"
     async defer></script>
-
+<script>    
+    $(function() {
+				$("#bannerscollection_zoominout_27").bannerscollection_zoominout({
+						skin:"opportune",
+						width:1920,
+						height:1200,
+						width100Proc:true,
+						height100Proc:true,
+						responsive:true,
+						responsiveRelativeToBrowser:true,
+						setAsBg:false,
+						autoPlay:9,
+						loop:true,
+						fadeSlides:true,
+						horizontalPosition:"center",
+						verticalPosition:"center",
+						initialZoom:1,
+						finalZoom:0.8,
+						duration:20,
+						durationIEfix:30,
+						zoomEasing:"ease",
+						target:"_blank",
+						pauseOnMouseOver:false,
+						showAllControllers:true,
+						showNavArrows:true,
+						showOnInitNavArrows:true,
+						autoHideNavArrows:true,
+						showBottomNav:true,
+						showOnInitBottomNav:true,
+						autoHideBottomNav:false,
+						showPreviewThumbs:true,
+						enableTouchScreen:true,
+						absUrl:"",
+						scrollSlideDuration:1,
+						scrollSlideEasing:"swing",
+						defaultEasing:"swing",
+						myloaderTime:1,
+						showCircleTimer:true,
+						circleRadius:13,
+						circleLineWidth:2,
+						circleColor:"#ffffff",
+						circleAlpha:100,
+						behindCircleColor:"##ffffff",
+						behindCircleAlpha:20,
+						numberOfThumbsPerScreen:0,
+						thumbsWrapperMarginTop:-50,
+						thumbsOnMarginTop:0,
+						defaultExitLeft:0,
+						defaultExitTop:0,
+						defaultExitFade:1,
+						defaultExitDuration:0,
+						defaultExitDelay:0,
+						defaultExitEasing:"swing",
+						defaultExitOFF:true			
+				});
+		});
+ </script>
 
                        
 

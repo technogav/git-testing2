@@ -8,300 +8,398 @@
      <div class="container-fluid" style="padding:0;margin:0;">
           <div class="row" style="margin:0;"><!--row--> 
                <!--main body-->
-             <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 bottom-shadow" style="padding:0; margin:0;">
+             <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 bottom-shadow " style="padding:0; margin:0;">
 <!--start of slider-->
  
-                    <div id="bannerscollection_zoominout_10" class="bottom-shadow">
-                         <div class="myloader"></div>
-                         <ul class="bannerscollection_zoominout_list">
-                              <li data-text-id="#bannerscollection_zoominout_photoText176" 
-                              data-video="false" data-bottom-thumb="img/thumbs/thumb3.jpg" 
-                              data-initialZoom="1" 
-                              data-finalZoom="0.79" 
-                              data-duration="" 
-                              data-zoomEasing="" >
-                              <img src="img/anglegrinder.jpg" style="width:2500px; height:782px;" alt=""/> </li>
-                              <li data-text-id="#bannerscollection_zoominout_photoText175" data-video="false" data-bottom-thumb=                                "img/thumbs/thumb1.jpg" data-link="" data-target=""  data-horizontalPosition=                                  "center" data-verticalPosition="center" data-initialZoom="0.79" data-finalZoom="1" data-duration=""                                    data-zoomEasing="" >  
-                              <img src="img/digger2.jpg" style="width:2500px; height:782px;" alt=""/> </li>
-                              <li data-text-id="#bannerscollection_zoominout_photoText172" data-video="false" data-bottom-thumb=                                "img/thumbs/thumb2.jpg" data-link="" data-target=""  data-horizontalPosition=                                "" data-verticalPosition="" data-initialZoom="1" data-finalZoom="0.79" data-duration="" data-zoomEasing="">
-                              <img src="img/KANGO.jpg" style="width:2500px; height:782px;" alt=""/> </li>
+                  <div class="hide-small" id="bannerscollection_zoominout_27">
+                <div class="myloader"></div>
+                <ul class="bannerscollection_zoominout_list">
+                <li data-text-id="#bannerscollection_zoominout_photoText239" 
+                data-video="false" 
+                data-bottom-thumb="images/oportuneFullScreenWidth/thumbs/01_fs_oport_thumb.jpg" 
+                data-link="" 
+                data-target="" 
+                data-autoPlay="11" 
+                data-horizontalPosition="center" 
+                data-verticalPosition="top" 
+                data-initialZoom="1" 
+                data-finalZoom="0.77" 
+                data-duration="" 
+                data-zoomEasing="" >
+                <img src="img/anglegrinder.jpg" width="2500" height="1570" style="width:2500px; height:1570px;" alt="" /></li>
+                
+                <li data-text-id="#bannerscollection_zoominout_photoText236" 
+                data-video="false" 
+                data-bottom-thumb="images/oportuneFullScreenWidth/thumbs/02_fs_oport_thumb.jpg" data-link="" data-target=""  data-horizontalPosition="left" 
+                data-verticalPosition="center" 
+                data-initialZoom="0.77" 
+                data-finalZoom="0.9" 
+                data-duration="" 
+                data-zoomEasing="ease" >
+                <img src="js/main/images/oportuneFullScreenWidth/02_FSopportune.jpg" width="2500" height="1570" style="width:2500px; height:1570px;" alt="" />
+                </li>
+                <li data-text-id="#bannerscollection_zoominout_photoText241" 
+                data-video="false" data-bottom-thumb="images/oportuneFullScreenWidth/thumbs/03_fs_oport_thumb.jpg" 
+                data-link="" data-target=""  
+                data-horizontalPosition="center" 
+                data-verticalPosition="bottom" 
+                data-initialZoom="0.77" data-finalZoom="0.96" 
+                data-duration="" 
+                data-zoomEasing="" >
+                <img src="img/KANGO.jpg" width="2500" height="1570" style="width:2500px; height:1570px;" alt="" /></li>
+                </ul>
+                
+                
+                
+                <div id="bannerscollection_zoominout_photoText239" class="bannerscollection_zoominout_texts">                
+				
+				                                
+                <div class="bannerscollection_zoominout_text_line lbg1_TinyGrand_center" 
+                data-initial-left="0" 
+                data-initial-top="650" 
+                data-final-left="0" 
+                data-final-top="650" 
+                data-duration="0.5" 
+                data-fade-start="0" 
+                data-delay="2.4" 
+                data-easing="easeOutBack" 
+                data-css3-animation="slideUp"   
+                data-exit-left="0" 
+                data-exit-top="2000" 
+                data-exit-fade="0" 
+                data-exit-duration="0.5" 
+                data-exit-delay="0.4" 
+                data-exit-easing="swing" 
+                data-exit-off="true"  
+                data-intermediate-delay="4" 
+                data-intermediate-left="0" 
+                data-intermediate-top="650" 
+                data-intermediate-duration="0.5" 
+                data-intermediate-easing="swing" 
+                -intermediate-css3-animation="tada">
+                         <div class="lbg_inner_div" style="border-width:0px;border-style:solid;">
                               
-                              <li data-text-id="#bannerscollection_zoominout_photoText62" data-video="false" data-bottom-thumb=                                 "img/thumbs/thumb3.jpg" data-link="" data-target=""  data-horizontalPosition=                                  "left" data-verticalPosition="top" data-initialZoom="1" data-finalZoom="0.8" data-duration=""                                     data-zoomEasing="" >
-                              <img src="img/anglegrinder.jpg" style="width:2500px; height:782px;" alt=""/> </li>
-                             
-               
-          </ul>
-          
-          
-          <div id="bannerscollection_zoominout_photoText176" class="bannerscollection_zoominout_texts">
-               <div class="bannerscollection_zoominout_text_line transp10" data-initial-left="0" data-initial-top="0" data-final-left="0" data-final-top="0" data-duration="3" data-fade-start="0" data-delay="0" data-easing="swing" data-css3-animation=""   data-intermediate-delay="0">
+                              <span class="highlightblack" style="padding:2px 6px;">Call or Drop In</span>
+                         
+                         </div>
+			 </div>
+                <div class="bannerscollection_zoominout_text_line lbg1_LargeGrand_center" 
+                data-initial-left="0" 
+                data-initial-top="410" data-final-left="0" 
+                data-final-top="410" 
+                data-duration="0.5" 
+                data-fade-start="0" 
+                data-delay="1.2" 
+                data-easing="easeOutBack" 
+                data-css3-animation="scaleOutBounce"   
+                data-exit-left="470" 
+                data-exit-top="410" 
+                data-exit-fade="0" 
+                data-exit-duration="0.5" 
+                data-exit-delay="2" 
+                data-exit-easing="swing" 
+                data-exit-off="false" 
+                data-exit-css3-animation="lightSpeedOutLeft"  
+                 
+                >
+                    <div class="lbg_inner_div" style="color:#ffffff;border-width:0px;border-style:solid;">
+                    Kildare's number one for professional advice and high quality tools</div>
+                    </div>
+                <div class="bannerscollection_zoominout_text_line lbg1_MediumLargeGrand_center" 
+                data-initial-left="0" data-initial-top="310" 
+                data-final-left="0" data-final-top="310" 
+                data-duration="0.5" data-fade-start="0" 
+                data-delay="0.2" 
+                data-easing="easeOutBack" 
+                data-css3-animation="zoomIn"   
+                data-exit-left="729" 
+                data-exit-top="310" 
+                data-exit-fade="0" 
+                data-exit-duration="0.5" 
+                data-exit-delay="1" 
+                data-exit-easing="swing" 
+                data-exit-off="false" 
+                data-exit-css3-animation="lightSpeedOutRight"  
+                >
+<div class="lbg_inner_div" style="color:#ffffff;border-width:0px;border-style:solid;">WELCOME TO BROWNS TOOL HIRE</div>
+                </div>
+                
+                </div>
+                
+                
+                
+                <div id="bannerscollection_zoominout_photoText236" class="bannerscollection_zoominout_texts">
+                <div class="bannerscollection_zoominout_text_line transp30" 
+                data-initial-left="0" data-initial-top="0" 
+                data-final-left="0" 
+                data-final-top="0" 
+                data-duration="4" 
+                data-fade-start="0" 
+                data-delay="0.1" 
+                data-easing="swing" 
+                data-css3-animation=""   
+                data-exit-left="0" 
+                data-exit-top="0" 
+                data-exit-fade="0" 
+                data-exit-duration="0.3" 
+                data-exit-delay="0" 
+                data-exit-easing="swing" 
+                data-exit-off="false"  
+                data-intermediate-delay="0">
                     <div class="lbg_inner_div" style="border-width:0px;border-style:solid;">
-                    
-                    <img src="skins/empty50.png" width="50" height="50" style="width:50px; height:50px; border:0;" alt="transparency10" /></div>
+                    <img src="skins/empty50.png" width="50" height="50" style="width:50px; height:50px; border:0;" alt="transparency30" />                      </div>
+                </div>
+                <div class="bannerscollection_zoominout_text_line lbg1_MediumLargeGrand_center" 
+                data-initial-left="0" 
+                data-initial-top="285" 
+                data-final-left="0" 
+                data-final-top="285" 
+                data-duration="0.5" data-fade-start="0" 
+                data-delay="0.5" 
+                data-easing="ease" 
+                data-css3-animation="bigEntrance"   
+                data-exit-left="0" 
+                data-exit-top="0" 
+                data-exit-fade="1" 
+                data-exit-duration="0.5" 
+                data-exit-delay="0.2" 
+                data-exit-easing="swing" 
+                data-exit-off="false" 
+                data-exit-css3-animation="zoomOut"  
+                data-intermediate-delay="0">
+                    <div class="lbg_inner_div" style="color:#ffffff;border-width:0px;border-style:solid;">WHY NOT DROP IN TO SEE US</div>
+                </div>
+                <div class="bannerscollection_zoominout_text_line lbg1_LargeGrand_center" 
+                data-initial-left="0" data-initial-top="390" 
+                data-final-left="0" 
+                data-final-top="390" 
+                data-duration="0.5" 
+                data-fade-start="0" 
+                data-delay="1" 
+                data-easing="ease" 
+                data-css3-animation="slideDown"   
+                data-exit-left="0" 
+                data-exit-top="390" 
+                data-exit-fade="1" 
+                data-exit-duration="0.5" 
+                data-exit-delay="2.5" 
+                data-exit-easing="swing" 
+                data-exit-off="false" 
+                data-exit-css3-animation="rotateOut"  
+                data-intermediate-delay="0">
+                    <div class="lbg_inner_div" style="color:#ffffff;border-width:0px;border-style:solid;">
+                    We are located in Kildare Town</div>
+                    </div>
+                <div class="bannerscollection_zoominout_text_line lbg1_TinyGrand_center" 
+                data-initial-left="0" data-initial-top="650" data-final-left="0" 
+                data-final-top="650" 
+                data-duration="0.5" data-fade-start="0" data-delay="2" 
+                data-easing="swing" 
+                data-css3-animation="slideUp"   
+                data-exit-left="0" 
+                data-exit-top="2000" data-exit-fade="0" 
+                data-exit-duration="0.5" 
+                data-exit-delay="0.2" data-exit-easing="swing" 
+                data-exit-off="false"  
+                data-intermediate-delay="1" data-intermediate-left="0" 
+                data-intermediate-top="650" 
+                data-intermediate-duration="0.5" 
+                data-intermediate-easing="swing" 
+                data-intermediate-css3-animation="tada">
+                    <div class="lbg_inner_div" style="border-width:0px;border-style:solid;"><a href="" target="_blank">
+                    <span class="highlightblack" style="padding:2px 6px;">Find Us Now!</span>
+                    </a>
+                    </div>
+                </div>
+                
+                </div>
+                
+                
+                
+                
+                <div id="bannerscollection_zoominout_photoText241" class="bannerscollection_zoominout_texts">
+                <div class="bannerscollection_zoominout_text_line transp30" 
+                data-initial-left="0" 
+                data-initial-top="0" 
+                data-final-left="0" 
+                data-final-top="0" data-duration="4" 
+                data-fade-start="0" 
+                data-delay="0.1" data-easing="swing" 
+                data-css3-animation=""   
+                data-exit-left="0" data-exit-top="0" 
+                data-exit-fade="0" 
+                data-exit-duration="0.3" data-exit-delay="0" 
+                data-exit-easing="swing" data-exit-off="false"  data-intermediate-delay="0">
+                <div class="lbg_inner_div" style="border-width:0px;border-style:solid;"><img src="skins/empty50.png" width="50" height="50" style="width:50px; height:50px; border:0;" alt="transparency30" /></div>
+                </div>
+                <div class="bannerscollection_zoominout_text_line lbg1_MediumLargeGrand_center" 
+                data-initial-left="0" 
+                data-initial-top="381" 
+                data-final-left="0" 
+                data-final-top="381" 
+                data-duration="0.5" 
+                data-fade-start="0" 
+                data-delay="1"
+                 data-easing="easeOutBack" 
+                 data-css3-animation="tinDownIn"   
+                data-exit-left="0" 
+                data-exit-top="381" 
+                data-exit-fade="0" 
+                data-exit-duration="0.5" 
+                data-exit-delay="0.1" 
+                data-exit-easing="swing" 
+                data-exit-off="false" 
+                data-exit-css3-animation="rollOutLeft"  
+                >
+                <div class="lbg_inner_div" style="color:#ffffff;border-width:0px;border-style:solid;">
+                THIS IS A GOOD DAY TO WIN </div>
+                </div>
+                <div class="bannerscollection_zoominout_text_line lbg1_LargeGrand_center" 
+                data-initial-left="0" data-initial-top="290" 
+                data-final-left="0" 
+                data-final-top="290" 
+                data-duration="0.5" 
+                data-fade-start="0" 
+                data-delay="0.2" 
+                data-easing="easeOutBack" 
+                data-css3-animation="foolishIn"   
+                data-exit-left="0" 
+                data-exit-top="290" 
+                data-exit-fade="0" 
+                data-exit-duration="0.5" 
+                data-exit-delay="0.1" 
+                data-exit-easing="swing" 
+                data-exit-off="false" 
+                data-exit-css3-animation="rollOutRight"  
+                data-intermediate-delay="0">
+                <div class="lbg_inner_div" style="color:#ffffff;border-width:0px;border-style:solid;">
+                Get Your Zoom Slider Now!</div>
+                </div>
+                <div class="bannerscollection_zoominout_text_line lbg1_center img" 
+                data-initial-left="0" 
+                data-initial-top="710" 
+                data-final-left="0" 
+                data-final-top="710" 
+                data-duration="0.5" 
+                data-fade-start="0" 
+                data-delay="2.4" 
+                data-easing="swing" 
+                data-css3-animation="slideUp"   
+                data-exit-left="0" 
+                data-exit-top="2000" 
+                data-exit-fade="0" 
+                data-exit-duration="0.5" 
+                data-exit-delay="0.4" 
+                data-exit-easing="swing" 
+                data-exit-off="false"  
+                data-intermediate-delay="1.5" 
+                data-intermediate-left="0" 
+                data-intermediate-top="710" 
+                data-intermediate-duration="0.5" 
+                data-intermediate-easing="swing" 
+                data-intermediate-css3-animation="floating">
+                <div class="lbg_inner_div" style="border-width:0px;border-style:solid;">
+                <a href="codecanyon.net/item/responsive-zoom-inout-slider-wordpress-plugin/2950062?ref=LambertGroup" target="_blank">
+                <img src="js/main/images/oportuneFullScreenWidth/downloadButton.png" width="24" height="21" style="width:24px; height:21px; border:0;" alt="download_Icon" />
+                </a>
+                </div>
+                </div>
+                <div class="bannerscollection_zoominout_text_line lbg1_TinyGrand_center" 
+                data-initial-left="0" 
+                data-initial-top="650" 
+                data-final-left="0" 
+                data-final-top="650" 
+                data-duration="0.5" 
+                data-fade-start="0"
+                data-delay="2.2" 
+                data-easing="swing" 
+                data-css3-animation="slideUp"   
+                data-exit-left="0" 
+                data-exit-top="2000" 
+                data-exit-fade="0" 
+                data-exit-duration="0.5" 
+                data-exit-delay="0.2" 
+                data-exit-easing="swing" 
+                data-exit-off="false"  
+                data-intermediate-delay="1" 
+                data-intermediate-left="0" 
+                data-intermediate-top="650" 
+                data-intermediate-duration="0.5" 
+                data-intermediate-easing="swing" 
+                data-intermediate-css3-animation="tada">
+                <div class="lbg_inner_div" style="color:#ffffff;border-width:0px;border-style:solid;"><a href="http://codecanyon.net/item/responsive-zoom-inout-slider-wordpress-plugin/2950062?ref=LambertGroup" target="_blank"><span class="highlightblack" style="padding:2px 6px;">DOWNLOAD</span></a></div>
+                </div>
+                </div>
+
+
+</div>
+                   </div>
                </div>
-               <!--<div class="bannerscollection_zoominout_text_line lbg1_TinyGrand" 
-               data-initial-left="1110" 
-               data-initial-top="398"                 
-               data-final-left="1110" 
-               data-final-top="398" 
-               data-duration="0" 
-               data-fade-start="0" 
-               data-delay="1.0" 
-               data-easing="swing"                 
-               data-css3-animation="rotateInLeft"   
-               data-intermediate-delay="1" 
-               data-intermediate-left="1110" 
-               data-intermediate-top="398" 
-               data-intermediate-duration="0.5" 
-               data-intermediate-easing="swing" 
-               data-intermediate-css3-animation="floating">
-                    <div class="lbg_inner_div" style="background-color:#000000;border-width:1px;border-style:solid;border-color:#ffffff; padding:2px 6px;">READ MORE</div>
-               </div>-->
-               
-              <!-- <div class="bannerscollection_zoominout_text_line lbg1_TinyGrand" 
-               data-initial-left="1110" 
-               data-initial-top="265" 
-               data-final-left="1110" 
-               data-final-top="265" 
-               data-duration="0" 
-               data-fade-start="0" 
-               data-delay="1" 
-               data-easing="swing" 
-               data-css3-animation="flipInY"   
-               data-intermediate-delay="0">
-                    <div class="lbg_inner_div" style="color:#ffffff;border-width:0px;border-style:solid;">Browns Motor Factors<br />
-                         Serving Kildare<br />
-                         since 1979</div>
-               </div>-->
-               <div class="bannerscollection_zoominout_text_line lbg1_MediumLargeGrand" 
-               data-initial-left="1110" 
-               data-initial-top="100" 
-               data-final-left="1110" 
-               data-final-top="165" 
-               data-duration="0" 
-               data-fade-start="0" 
-               data-delay="1.5" 
-               data-easing="swing" data-css3-animation="tinDownIn"   
-               data-intermediate-delay="0">
-                    <div>TOOL HIRE</div>
-               </div>
-               <div class="bannerscollection_zoominout_text_line lbg1_MediumLargeGrand" 
-               data-initial-left="1110" 
-               data-initial-top="92" 
-               data-final-left="1110" 
-               data-final-top="92" 
-               data-duration="0" 
-               data-fade-start="0" 
-               data-delay="0.5" 
-               data-easing="swing" 
-               data-css3-animation="flipInY"   
-               data-intermediate-delay="0">
-                    <div class="lbg_inner_div">BROWNS</div>
-               </div>
-          </div>
-          <div id="bannerscollection_zoominout_photoText175" class="bannerscollection_zoominout_texts">
-               <div class="bannerscollection_zoominout_text_line lbg1_TinyGrand" 
-               data-initial-left="198" 
-               data-initial-top="261" 
-               data-final-left="198" 
-               data-final-top="261" 
-               data-duration="0" 
-               data-fade-start="0" 
-               data-delay="2.5" 
-               data-easing="swing" 
-               data-css3-animation="lightSpeedInLeft"   
-               data-intermediate-delay="0">
-                    <div class="lbg_inner_div" style="color:#ffffff;">Just give us a call or drop us an eamil and tell us what you need!</div>
-               </div>
-               <div class="bannerscollection_zoominout_text_line lbg1_MediumLargeGrand" 
-               data-initial-left="202" 
-               data-initial-top="160" 
-               data-final-left="202" 
-               data-final-top="160" 
-               data-duration="0" 
-               data-fade-start="0" 
-               data-delay="1.5" 
-               data-easing="swing" 
-               data-css3-animation="lightSpeedInLeft"   
-               data-intermediate-delay="0">
-                    <div class="lbg_inner_div" style="color:#ffffff;border-width:0px;border-style:solid; padding:0 5px 2px 5px;">Quality Tools at a low price!</div>
-               </div>
-          </div>
-          <div id="bannerscollection_zoominout_photoText172" class="bannerscollection_zoominout_texts">
-               <div class="bannerscollection_zoominout_text_line" 
-               data-initial-left="0" 
-               data-initial-top="0" 
-               data-final-left="0" 
-               data-final-top="0" 
-               data-duration="3" 
-               data-fade-start="0" 
-               data-delay="0" 
-               data-easing="swing" 
-               data-css3-animation=""   
-               data-intermediate-delay="0">
-                    <div class="lbg_inner_div" style="border-width:0px;border-style:solid;"><img src="skins/empty50.png" width="50" height="50" style="width:50px; height:50px; border:0;" alt="transparency10" /></div>
-               </div>
-               <div class="bannerscollection_zoominout_text_line lbg1_TinyGrand" 
-               data-initial-left="1385" 
-               data-initial-top="580" 
-               data-final-left="1385" 
-               data-final-top="380" 
-               data-duration="1" 
-               data-fade-start="0" 
-               data-delay="3" 
-               data-easing="swing" 
-               data-css3-animation=""   
-               data-intermediate-delay="0">
-                    <div class="lbg_inner_div" style="background-color:#bd4f7e;border-width:0px;border-style:solid;"><a href="http://codecanyon.net/user/LambertGroup?ref=LambertGroup" target="_blank">GREAT PRODUCTS LOW PRICE!</a></div>
-               </div>
-               <!--<div class="bannerscollection_zoominout_text_line lbg1_LargeGrand" 
-               data-initial-left="1384" 
-               data-initial-top="195" 
-               data-final-left="1384" 
-               data-final-top="195" 
-               data-duration="0.5" 
-               data-fade-start="0" 
-               data-delay="1" 
-               data-easing="swing" 
-               data-css3-animation="lightSpeedInLeft"   
-               data-intermediate-delay="3.7" 
-               data-intermediate-left="1384" 
-               data-intermediate-top="195" 
-               data-intermediate-duration="1" 
-               data-intermediate-easing="swing" 
-               data-intermediate-css3-animation="changeColorToWhite">
-                    <div class="lbg_inner_div" style="color:#59be22;border-width:0px;border-style:solid;">MORE<br />
-                         TOOLS<br />
-                         CAR PARTS</div>
-               </div>
-               <div class="bannerscollection_zoominout_text_line lbg1_HugeGrand" 
-               data-initial-left="1214" 
-               data-initial-top="161" 
-               data-final-left="1214" 
-               data-final-top="161" 
-               data-duration="0.6" 
-               data-fade-start="0" 
-               data-delay="2" 
-               data-easing="swing" 
-               data-css3-animation="journal"   
-               data-intermediate-delay="2" 
-               data-intermediate-left="1214" 
-               data-intermediate-top="161" 
-               data-intermediate-duration="1" 
-               data-intermediate-easing="swing" 
-               data-intermediate-css3-animation="changeColorToWhite">
-                    <div class="lbg_inner_div" style="color:#59be22;border-width:0px;border-style:solid;">2</div>
-               </div>-->
-               <!--<div class="bannerscollection_zoominout_text_line lbg1_TinyGrand" 
-               data-initial-left="1230" 
-               data-initial-top="110"                 
-               data-final-left="1230" 
-               data-final-top="110" 
-               data-duration="0.5" 
-               data-fade-start="0" 
-               data-delay="0" 
-               data-easing="swing"                 
-               data-css3-animation="bounceIn"   
-               data-intermediate-delay="3.5" 
-               data-intermediate-left="1230" 
-               data-intermediate-top="110"                 
-               data-intermediate-duration="1" 
-               data-intermediate-easing="swing" 
-               data-intermediate-css3-animation="changeColorToWhite">
-                    <div class="lbg_inner_div" style="color:#59be22;border-width:0px;border-style:solid;">We now offer two services <br />
-                    
-                         Tool hire and auto parts</div>
-               </div>-->
-          </div>
-          <div id="bannerscollection_zoominout_photoText62" class="bannerscollection_zoominout_texts">
-               <div class="bannerscollection_zoominout_text_line transp10" 
-               data-initial-left="0" 
-               data-initial-top="0" 
-               data-final-left="0" 
-               data-final-top="0" 
-               data-duration="3" 
-               data-fade-start="0" 
-               data-delay="0" 
-               data-easing="swing"
-               data-css3-animation=""   
-               data-intermediate-delay="0">
-                    <div class="lbg_inner_div" style="border-width:0px;border-style:solid;"><img src="skins/empty50.png" width="50" height="50" style="width:50px; height:50px; border:0;" alt="transparency10" /></div>
-               </div>
-               <div class="bannerscollection_zoominout_text_line lbg1_MediumLargeGrand" 
-               data-initial-left="140" 
-               data-initial-top="200" 
-               data-final-left="140" 
-               data-final-top="200" 
-               data-duration="0" 
-               data-fade-start="0" 
-               data-delay="1" 
-               data-easing="swing" 
-               data-css3-animation="lightSpeedInRight"   
-               data-intermediate-delay="0">
-                    <div class="lbg_inner_div" style="color:#ffffff;border-width:0px;border-style:solid;"></div>
-               </div>
-               <div class="bannerscollection_zoominout_text_line lbg1_MediumLargeGrand" 
-               data-initial-left="140" 
-               data-initial-top="125" 
-               data-final-left="140" 
-               data-final-top="125" 
-               data-duration="0" 
-               data-fade-start="0" 
-               data-delay="0.5" 
-               data-easing="swing" 
-               data-css3-animation="lightSpeedInLeft"   
-               data-intermediate-delay="0">
-                    <div class="lbg_inner_div" style="color:#ffffff;text-shadow: 2px 2px 5px rgba(150, 150, 150, 1);">BROWNS TOOL HIRE</div>
-               </div>
-               <div class="bannerscollection_zoominout_text_line lbg1_ImageOnly" 
-               data-initial-left="143" 
-               data-initial-top="299" 
-               data-final-left="143" 
-               data-final-top="299" 
-               data-duration="0" 
-               data-fade-start="0" 
-               data-delay="2.5" 
-               data-easing="swing" 
-               data-css3-animation="coolBarLeft"   
-               data-intermediate-delay="0">
-                    <div class="lbg_inner_div" style="background-color:#ffffff;border-width:0px;border-style:solid;"></div>
-               </div>
-               
-          </div>
-     </div> 
+                    <div class="reveal-small">
+                         <img class="absolute bottom-shadow" src="img/mobile-splash.jpg" width="320" height="480" alt=""/> 
+                         <div class="relative animated fadeIn"><h1 id="mobileHero">Browns<br>
+                         Motor Factors</h1>
+                          <hr id="mobileSpalsh">
+                         <p class="mobile_subHead text-center">Kildare Town</p>
+                         </div>
+                    </div>
              </div>
           </div>
+          
+          <!-- buttons-->
           <div class="row">
-               <div class="col-md-8 col-md-offset-2 tool-auto">
-                    <a href="index.php"><button class="btn btn-success btn-lg">Browns Motor Factors</button></a>
-                    <a href="tools.php"><button class="btn btn-primary btn-lg">Browns Tool Hire</button></a>
-                    <button class="btn btn-primary btn-lg product-list">Browns Product List</button>
+               <div class="tool-auto">
+                    <a href="index.php"><button class="btn btn-success button-row btn-lg">Motor Factors</button></a>
+                    <a href="tool-hire.php"><button class="btn btn-primary button-row btn-lg">Tool Hire</button></a>
+                    <button class="btn btn-primary btn-lg product-list button-row hide-small">Product List</button>
                </div>
           </div>
           <!--row-->
-          <hr>
+         
           <hr>
      </div>
      <!--container--> 
 </section>
 
-<section id="browns_auto_kildare_home_paragraph">
+<section id="front-article-image">
      <div class="container-fluid">
           <div class="row">
-               <div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 opening animated hide">
-                    <h1>Browns Auto Parts</h1>
-                    <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+               <div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 opening">
+                    <h1 id="indexHeading">Browns Auto Parts</h1>
+                    <p class="indexText">Browns Motor Factors stock <strong>high quality</strong> car parts and auto accessories from quality automotive parts suppliers and some of the <strong>world’s best brands</strong>. The range of auto parts covers everything from car stereos and phone accessories to hand tools, batteries, filters, lights and performance upgrades.</p>
                </div>
                <!--front-image-->
-               <div class="col-lg-4 col-md-4 col-md-offset-1 front-article-image animated hide"> <img class="bottom-shadow" src="img/brownsShop.jpg" /> </div>
+               <div class="col-lg-4 col-md-4 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 front-article-image"> 
+               <img class="bottom-shadow" src="img/brownsShop.jpg" /> </div>
+               <div class="col-lg-4 col-md-4 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 front-article-image hide-med"> 
+               <img class="bottom-shadow" src="img/gates.jpg" width="312" height="190" alt=""/></div>
+               <!--reveal on small-->
                
+               <!-->
           </div>
-          <div class="row">
-               <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 partner-logos">
-                    <div class="col-lg-3 col-md-3"><img src="img/partner-logo-1.jpg" width="90" height="60" alt=""/></div>
-                    <div class="col-lg-3 col-md-3"><img src="img/partner-logo-2.jpg" width="90" height="60" alt=""/></div>
-                    <div class="col-lg-3 col-md-3"><img src="img/partner-logo-3.jpg" width="90" height="60" alt=""/></div>
-                    <div class="col-lg-3 col-md-3"><img src="img/partner-logo-4.jpg" width="90" height="60" alt=""/></div>
+          <div class="row"><!--//bootstrap slider for logos-->
+               <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 partner-logos">
+                    <div class="container">
+                      <br>
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        
+                    
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                          <div class="item active">
+                               <img src="img/logo-panel1.jpg" width="800" height="67" alt=""/> </div>
+                    
+                          <div class="item">
+                            <img src="img/logo-panel2.jpg" width="800" height="67" alt=""/>
+                          </div>
+                        
+                          
+                        </div>
+                    
+                        
+                        
+                      </div>
+                    </div>
                     
                </div>
           </div>
@@ -312,26 +410,44 @@
 
 <section id="browns_featured_auto_products">
      <div class="row">
-          <h2 class="text-center">Browns Featured Auto Parts</h2>
+          <h1 id="featured" class="text-center">Featured Products</h1>
           <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 featured_auto_products">
-               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img src="img/car-jack-small.jpg">
-                    <h3 class="text-center">Car Jacks</h3>
+          
+          <a href="products.php?feature=glass">
+               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img class="grow" src="img/glass.jpg" alt="car glass"/>
+<h3 class="text-center">Glass</h3>
                </div>
-               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img src="img/car-tool-kit-sm.jpg">
-                    <h3 class="text-center">Tool Kits</h3>
+          </a>
+          
+          <a href="products.php?feature=bulk_oil">     
+               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img class="grow" src="img/bulkoil.jpg" alt="bulk oil"/>
+<h3 class="text-center">Bulk Oil</h3>
                </div>
-               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img src="img/seats.jpg">
-                    <h3 class="text-center">Accessories</h3>
+          </a>
+          
+          <a href="products.php?feature=car_parts">
+               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img class="grow" src="img/carparts.jpg" alt="car parts"/>
+<h3 class="text-center">Car Parts</h3>
                </div>
-               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img src="img/auto-audio-sm.jpg">
-                    <h3 class="text-center">Car Jacks</h3>
+          </a>
+          
+          <a href="products.php?feature=wing_mirror">
+               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img class="grow" src="img/wingmirror.jpg" alt="wing mirrorr"/>
+<h3 class="text-center">Wing Mirror</h3>
                </div>
-               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img src="img/car-jack-small.jpg">
-                    <h3 class="text-center">Car Jacks</h3>
+          </a>     
+               
+          <a href="products.php?feature=body_panels">     
+               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img class="grow" src="img/body-shot-small.jpg"/>
+<h3 class="text-center">Body Panels</h3>
                </div>
-               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img src="img/car-jack-small.jpg">
-                    <h3 class="text-center">Car Jacks</h3>
+          </a>
+               
+          <a href="products.php?feature=tool_kits">     
+               <div class="col-sm-6 col-md-4 col-sm-6 col-xs-6"> <img class="grow" src="img/automotive-repair-tools-kit-small.jpg" width="206" height="137" alt=""/>
+<h3 class="text-center">Tool-kits</h3>
                </div>
+          </a>     
           </div>
      </div>
 </section>
