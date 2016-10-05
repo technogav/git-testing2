@@ -21,4 +21,7 @@
 <link href="css/brown_style_responsive.css" rel="stylesheet" type="text/css">
 
 </head>
+<style>
+#gmap_canvas img{max-width:none!important;background:none!important}
+</style>
 <body>

@@ -5,8 +5,9 @@ $(function($) {
      $(document).ready( function() { 
           //enabling stickUp on the '.navbar-wrapper' class 
           $('.nav-container').stickUp();
+          
            //CAPTURE CLICK EVENT REDIRECT TO THE PRODUCT PAGE AND APPEND ON THE TAG TO URL
-           $('.product-button').click( function(e){
+           /*$('.product-button').click( function(e){
                 e.preventDefault();
                var productTabName = ($(this).attr('value'));
                window.location = 'products.php?tag='+productTabName;
@@ -22,7 +23,7 @@ $(function($) {
                e.preventDefault();
                var toolTagName = ($(this).attr('value'));
                window.location = 'toolList.php?tooltag='+toolTagName;   
-          });
+          });*/
      }); 
 }); 
 
@@ -39,17 +40,23 @@ $(function($) {
                     $('#myNavbar span').hide();
                     
                       
-               }else{
-                    //$('.side-navbar').removeClass('slideInLeft').addClass('slideOutLeft');
-                    
-                    //$('#myNavbar span').removeClass('fadeOut').addClass('fadeIn');
-                    //$('.side-navbar').addClass('slideOutLeft');
-                    /*setTimeout(function(){
-                         $('.side-navbar').css('display', 'none');       
-                    }, 1000);*/
-                      
-               }    
+               }
            });
+           
+           //Capture click on products tab for mobile
+           $('#tab').click(function(){
+               
+               if($('.side-navbar').css('display')==='none'){
+                    $('.side-navbar').removeClass('slideOutLeft');
+                    $('.side-navbar').addClass('slideInLeft');
+                    $('.side-navbar').css('display', 'block');
+                    $('.hover-nav').hide();
+                    $('#myNavbar span').hide();
+                    
+                      
+               }     
+           });
+           
            $(".side-navbar").on("mouseover", function() {
                  
                }).on("mouseleave", function() {
