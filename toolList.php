@@ -9,7 +9,7 @@
            $sql .= "week_price FROM toolhire WHERE tool_name = '" . $_GET['tooltag'] . "'"; 
            $db = new CRUDClass;
            $resultSet = $db->dbRead($sql);
-          
+          echo $resultSet;
            for($i = 0; $i < count($resultSet); $i++ ){
                
                echo '<section>
@@ -23,5 +23,8 @@
       }
       
                     } 
-      include('inc/footer.php'); 
+      include('inc/footer.php');
+      
+      
+       
 ?>

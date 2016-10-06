@@ -1,6 +1,7 @@
 <?php include('inc/head.php'); ?>
  <!--api key AIzaSyAAIlBmEEBgms_hhbcyU-uNciPRknniNQY-->
-<div class="container-fluid nav-container">  
+<div class="container-fluid nav-container">
+                
                <div class="row">
                <nav class="navbar navbar-inverse">
                       <div class="container-fluid">
@@ -37,7 +38,7 @@
      
      <div class="row" id="contact-row-1">
           <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
-               <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-2 n">
+               <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-12 col-xs-12 n">
                     <div>
                          <h3>Drop us a line!</h3>
                          
@@ -52,7 +53,7 @@
                      <div class="formbox">
                      
                          <form id="contact-form">
-                              <div class="col-lg-12 col-md-12">
+                              <div class="col-lg-12 col-md-12 col-xs-12">
                                    <div class="form-group">
                                         <label for="exampleInputEmail1">Name</label>
                                         <input type="text" class="form-control" name="name" placeholder="Name">
@@ -73,7 +74,7 @@
                     </div>
           
                </div>
-               <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-0 col-xs-10 col-xs-offset-2">
+               <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-xs-12 top-margin-small">
                     <div id="map" class="map bottom-shadow"></div> 
               
                </div>

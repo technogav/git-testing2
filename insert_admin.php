@@ -1,4 +1,13 @@
-<?php include('inc/head.php'); ?>
+<?php
+
+     $username = 'gavin';
+     $password = 'password';
+     if(($username === 'gavin')&&($password === 'password')){
+          
+     }else{
+         header('location: index.php'); 
+     }
+?><?php include('inc/head.php'); ?>
 <?php include('inc/nav_header.php'); 
 //INCLUDE THE CRUD CLASS                  
 include('inc/CRUD.class.php');?>
@@ -57,7 +66,7 @@ include('inc/CRUD.class.php');?>
                $CRUD_obj = new CRUDClass;
                
                if($CRUD_obj->dbUpdate($splash_poster)){
-                    echo "<script>alert('She\'s up there now Buddy');</script>";
+                    echo "<script>alert('The Deals of the week has been updated');</script>";
                
                }
                           
@@ -83,6 +92,8 @@ include('inc/CRUD.class.php');?>
                     echo('<script>alert("Tool entered into database successfully.")</script>');     
                }
           }
+          
+          
 }
 ?>
 

@@ -6,24 +6,6 @@ $(function($) {
           //enabling stickUp on the '.navbar-wrapper' class 
           $('.nav-container').stickUp();
           
-           //CAPTURE CLICK EVENT REDIRECT TO THE PRODUCT PAGE AND APPEND ON THE TAG TO URL
-           /*$('.product-button').click( function(e){
-                e.preventDefault();
-               var productTabName = ($(this).attr('value'));
-               window.location = 'products.php?tag='+productTabName;
-          });
-          
-          $('.partner-button').click(function(e){
-               e.preventDefault();
-               var productPartnerName = ($(this).attr('value'));
-               window.location =  'products.php?partner='+productPartnerName;    
-          });
-          
-          $('.tool-button').click(function(e){
-               e.preventDefault();
-               var toolTagName = ($(this).attr('value'));
-               window.location = 'toolList.php?tooltag='+toolTagName;   
-          });*/
      }); 
 }); 
 
@@ -108,10 +90,12 @@ function myFunction() {
          $('.side-navbar').css('top','50');
          $('#myNavbar span').removeClass('hide');
          $('#myNavbar span').addClass('fadeIn');
+         $('.side-navbar').css('padding-top' , '30');
         
     } else {
         $('#myNavbar span').addClass('fadeOut');
         $('#myNavbar span').addClass('hide');
+        $('.side-navbar').css('padding-top' , '130');
     }
     
     

@@ -1,8 +1,8 @@
 <?php include('inc/head.php'); ?>
-
+<?php include('inc/nav_header.php'); ?>
 <?php include('inc/side_nav.php'); ?> 
 
-<?php include('inc/nav_header.php'); ?>
+
 
 <section id="browns_auto_homepage_top" style="padding:0;margin:0;">
      <div class="container-fluid" style="padding:0;margin:0;">
