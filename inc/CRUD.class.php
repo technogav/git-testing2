@@ -3,9 +3,9 @@
 class CRUDClass {
  
     const DB_HOST = 'localhost';
-    const DB_NAME = 'browns';      //'browns'  'responsi_browns'
-    const DB_USER = 'root';        //'root'    'responsi_gavin'    
-    const DB_PASSWORD = '';        //''        'T^Wyc_g7LsXX'
+    const DB_NAME = 'responsi_browns';      //'browns'  'responsi_browns'
+    const DB_USER = 'responsi_gavin';        //'root'    'responsi_gavin'    
+    const DB_PASSWORD = 'T^Wyc_g7LsXX';        //''        'T^Wyc_g7LsXX'
         
     public function __construct() {
         // open database connection

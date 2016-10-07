@@ -38,6 +38,7 @@
 <?php echo "<p id='footer-copyright' class='text-center'>Browns Motor Factors &copy; " . date("Y")."<br>
                Designed and built by <a href='www.responsivedesign101.com'><span id='responsivedesign'>ResponsiveDesign</span></a></p>"
  ?>
+ <span class="pull-right"><a href="login.php"><p id="admin-link">admin</p></a></span>
 </div>          
           
      </div>

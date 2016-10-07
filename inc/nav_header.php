@@ -23,11 +23,13 @@
                               <span class="phone-head pull-right">
                               <i class="fa fa-phone" aria-hidden="true"></i>
                               045 522526
-                              </span>     
+                              </span>
+                               
                          </div>
                          <div class="col-lg-8 col-lg-offset-4 col-md-8 col-md-offset-4 slogan-top">
                               
                               <div class="col-lg-4 col-lg-offset-8 col-md-4 col-md-offset-8 opening-hours"><h4>Mon-Fri&nbsp; &nbsp;9AM - 6PM <br>Saturday &nbsp;9AM - 1PM</h4></div>
+                                  
                          </div>
                </div><!--row-->
           </div>

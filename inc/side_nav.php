@@ -23,29 +23,29 @@
                          <a href="toolList.php?tooltag=powerwasher"><button class="btn-sm btn-success tool-button" value="powerwasher">Power Washer</button></a>
                     </li>
                     <li>
-                         <a href="toolList.php?tooltag=Lawnmower"><button class="btn-sm btn-success tool-button" value="Lawnmower">Lawnmower</button></a>
+                         <a href="toolList.php?tooltag=lawnmower"><button class="btn-sm btn-success tool-button" value="Lawnmower">Lawnmower</button></a>
                     </li>
                     <li>
-                         <a href="toolList.php?tooltag=angle_grinder"><button class="btn-sm btn-success tool-button" value="angle_grinder">Angle Grinder</button></a>
+                         <a href="toolList.php?tooltag=angle_grinder"><button class="btn-sm btn-success tool-button">Angle Grinder</button></a>
                     </li>
                     <li>
-                         <a href="toolList.php?tooltag=whacker_plate"><button class="btn-sm btn-success tool-button" value="whacker_plate">Whacker Plate</button></a>
+                         <a href="toolList.php?tooltag=wacker_plate"><button class="btn-sm btn-success tool-button">Whacker Plate</button></a>
                     </li>
                     <li>
-                        <a href="toolList.php?tooltag=water_pump"><button class="btn-sm btn-success tool-button" value="water_pump">Water Pump</button></a>
+                        <a href="toolList.php?tooltag=water_pump"><button class="btn-sm btn-success tool-button">Water Pump</button></a>
                     </li>
                     
                     <li>
-                        <a href="toolList.php?tooltag=rotorvator"><button class="btn-sm btn-success tool-button" value="rotorvator">Rotorvator</button></a>
+                        <a href="toolList.php?tooltag=rotorvator"><button class="btn-sm btn-success tool-button"">Rotorvator</button></a>
                     </li>
                      <li>
-                         <a href="toolList.php?tooltag=vacume_cleaner"><button class="btn-sm btn-success tool-button" value="vacume_cleaner">Ind. Vacume Cleaner</button></a>
+                         <a href="toolList.php?tooltag=vacuum_cleaner"><button class="btn-sm btn-success tool-button" value="vacume_cleaner">Ind. Vacuum Cleaner</button></a>
                     </li>
                     <li>
-                         <a href="toolList.php?tooltag=strimers"><button class="btn-sm btn-success tool-button" value="strimers">Strimers</button></a>
+                         <a href="toolList.php?tooltag=strimmers"><button class="btn-sm btn-success tool-button">Strimmers</button></a>
                     </li>
                     <li>
-                         <a href="toolList.php?tooltag=mixer"><button class="btn-sm btn-success tool-button" value="mixer">Cement Mixer</button></a>
+                         <a href="toolList.php?tooltag=mixer"><button class="btn-sm btn-success tool-button">Cement Mixer</button></a>
                     </li>
                     
                </ul>';    
@@ -53,7 +53,7 @@
                     echo '<ul>
          
           <li><!--trap button click events on the dom and store the this.value in an object; send a get request to products page--> 
-               <a href="#"><button class="btn-sm btn-success product-button" value="body_panels">Body Panels</button></a>
+               <a href="products.php?tag=body_panels"><button class="btn-sm btn-success product-button">Body Panels</button></a>
           </li>
           <li>
                <a href="products.php?tag=car_accessories"><button class="btn-sm btn-success product-button" value="car_accessories">Car Accessories</button></a>

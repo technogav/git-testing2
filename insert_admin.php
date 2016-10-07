@@ -1,13 +1,9 @@
-<?php
+<?php include('inc/head.php'); 
 
-     $username = 'gavin';
-     $password = 'password';
-     if(($username === 'gavin')&&($password === 'password')){
-          
-     }else{
-         header('location: index.php'); 
-     }
-?><?php include('inc/head.php'); ?>
+if(!$_SESSION['loggedIn'] == true){
+    header("location: index.php" );
+}
+?>
 <?php include('inc/nav_header.php'); 
 //INCLUDE THE CRUD CLASS                  
 include('inc/CRUD.class.php');?>
@@ -39,13 +35,15 @@ include('inc/CRUD.class.php');?>
                //CALL THE DBCREATE METHOD TO INSERT PRODUCT INTO DATABASE
                $CRUD_obj = new CRUDClass;
                
-               $CRUD_obj->dbCreate($product_id, $product_name, $product_description, $binImgFile, $fileType, $price, $tag1, $tag2, $tag3);
+               if($CRUD_obj->dbCreate($product_id, $product_name, $product_description, $binImgFile, $fileType, $price, $tag1, $tag2, $tag3)){
+                    echo '<script>alert("' . $_POST["product_name"] . ' has been added to database");</script>';
+               }
           } 
           
           if(isset($_POST['delete'])){
                //echo $_POST['delete_product'];
                
-               $sql="DELETE FROM products WHERE product_name='" . $_POST['delete_product'] . "'";
+               $sql="DELETE FROM products WHERE product_name='" . $_POST["delete_product"] . "'";
                
                //CALL THE DBDELETE METHOD TO DELETE THE SELECT TAG PRODUCT NAME
                $delDB = new CRUDClass;
@@ -79,8 +77,8 @@ include('inc/CRUD.class.php');?>
                $image = base64_encode($image);
                
                //GET THE REST OF THE VARIABLES
-               $tool_make = $_POST['tool_make'];
-               $tool_name = $_POST['tool_name'];
+               $tool_make = strtolower($_POST['tool_make']);
+               $tool_name = strtolower($_POST['tool_name']);
                $tool_desc = $_POST['tool_desc'];
                //$binImgFile = $content;
                $day_price = $_POST['day_price'];
@@ -141,7 +139,7 @@ include('inc/CRUD.class.php');?>
                          </tr>
                          <tr>
                               <td><label for="tag2">Tag 2</label></td>
-                              <td><select name="tag2">
+                              <td><select name="tag2" overflow="scroll">
                                      <option value="">-</option>
                                      <option value="audio">Audio</option>
                                      <option value="body_panels">Body Panels</option>
@@ -157,7 +155,7 @@ include('inc/CRUD.class.php');?>
                          </tr>
                          <tr>
                               <td><label for="tag3">Tag 3</label></td>
-                              <td><select name="tag3">
+                              <td><select name="tag3" overflow="scroll">
                                      
                                      <option value="">-</option>
                                      <option value="audio">Audio</option>
@@ -179,9 +177,9 @@ include('inc/CRUD.class.php');?>
                          </tr>
                     </table>
                </form>
-          </div><!--cols-->
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <h3 class="text-center admin_headings">Delete from database</h3>
+               <!--/*DELETE PRODUCT FROM DATABASE*/-->
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+               <h3 class="text-center admin_headings">Delete from database</h3>
                <?php 
                $sql = 'SELECT product_name FROM products';
                $delDB = new CRUDClass;
@@ -191,7 +189,7 @@ include('inc/CRUD.class.php');?>
                <form method='post'>
                
                <?php
-                   echo('<select name="delete_product">');
+                   echo('<select name="delete_product" overflow="scroll">');
                     
                     foreach($resultSet as $r){
                         echo '<option value="' . $r['product_name'] . '">' . $r['product_name'] . '</option>'; 
@@ -202,31 +200,11 @@ include('inc/CRUD.class.php');?>
                     <input class="btn btn-primary" type="submit" value="Delete Product" name="delete"/>
                     
                </form>
-         </div>
-         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-               <h3 class="text-center admin_headings">Update Weekly Deal</h3>
-               <form method="post" enctype="multipart/form-data">
-                    <table>
-                         
-                         <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-                         <tr>
-                              <td><label for="deal_splash">Attach Poster</label></td>
-                              <td><input type="file" name="splash_poster"/></td>
-                         </tr>
-                         <tr>
-                              <td></td>
-                              <td><input name="splash_submit" class="btn btn-primary" type="submit" value="Update" /></td>
-                         </tr>
-                     </table>
-   
-               </form>
-          </div>
-     
-      
-     <hr>
-     
+               </div>
+          </div><!--cols-->
           
-         
+          
+          <!--ADD A TOOL -->      
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                <h3 class="text-center admin_headings">Update Tool Hire Database</h3>
                <form method="post" enctype="multipart/form-data">
@@ -243,7 +221,19 @@ include('inc/CRUD.class.php');?>
                          </tr>
                          <tr>
                               <td><label for="tool_name">Tool Name</label></td>
-                              <td><input type="text" name="tool_name" /></td>
+                              <td><select name="tag2">
+                                     <option value="">-</option>
+                                     <option value="compressor">Compressor</option>
+                                     <option value="powerwasher">Power Washer</option>
+                                     <option value="lawnmower">Lawnmower</option>
+                                     <option value="angle_grinder">Angle Grinder</option>
+                                     <option value="wacker_plate">Whacker Plate</option>
+                                     <option value="water_pump">Water Pump</option>
+                                     <option value="rotovator">Rotovator</option>
+                                     <option value="cement_mixer">Cement Mixer</option>
+                                     <option value="vacuum_cleaner">Vacuum Cleaner</option>
+                                     <option value="strimmers">Strimmers</option>
+                              </select></td>
                          </tr>
                          <tr>
                               <td><label for="tool_desc">Tool Desc</label></td>
@@ -273,5 +263,31 @@ include('inc/CRUD.class.php');?>
                
                </form>         
          </div>
+         
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+               <!--UPDATE WEEKLY DEALS-->
+               <h3 class="text-center admin_headings">Update Weekly Deal</h3>
+               <form method="post" enctype="multipart/form-data">
+                    <table>
+                         
+                         <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+                         <tr>
+                              <td><label for="deal_splash">Attach Poster</label></td>
+                              <td><input type="file" name="splash_poster"/></td>
+                         </tr>
+                         <tr>
+                              <td></td>
+                              <td><input name="splash_submit" class="btn btn-primary" type="submit" value="Update" /></td>
+                         </tr>
+                     </table>
+   
+               </form>
+          </div>
+     
+      
+     <hr>
+     
+          
+ 
      </div><!--row-->
 </div><!--container-->

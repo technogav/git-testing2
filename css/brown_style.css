@@ -19,7 +19,8 @@ Vibrent Green => #59be22
      
       margin-left:10%;
   }
-  
+.table_data{padding:10px 5px 10px 5px; width:50%;} 
+.tool-table-wrapper{border-right:1px solid #AAAAAA;} 
 #suppliers-heading{color:#fff; text-align:center; font-size:250%; font-weight:800;margin-bottom:40px;}   
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}
@@ -153,6 +154,7 @@ footer{min-height: 450px; background-color: #333; background-image:url('../img/d
 #responsivedesign{color:red; font-weight: 450;}
 #mailing_list_footer{color:#ffffff;}
 .form-control{padding-top:0px; padding-bottom:0px;}
+#admin-link{margin-right: 10px;}
 /*****************ABOUT**********************/
 /**main body**/
 #browns_motor_factors_about{
