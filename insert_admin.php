@@ -8,8 +8,6 @@ if(!$_SESSION['loggedIn'] == true){
 //INCLUDE THE CRUD CLASS                  
 include('inc/CRUD.class.php');?>
 <?php if($_SERVER['REQUEST_METHOD'] == 'POST'){
-         
-          
           
           if(isset($_POST['submit_product']) && $_FILES['image']['size'] > 0){
                

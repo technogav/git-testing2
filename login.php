@@ -7,7 +7,7 @@ if(($_SERVER['REQUEST_METHOD'] == 'POST') && (isset($_POST['username'])) && (iss
      
      if(($username == 'eddie')&&($password == 'password')){
           $_SESSION['loggedIn'] = true;
-          header('location: insert_admin.php');
+          echo '<script>window.location = "insert_admin.php";</script>';
      }else{
           
          echo '<script>alert("Incorrect username and password");</script>';

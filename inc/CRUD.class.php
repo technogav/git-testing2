@@ -3,9 +3,9 @@
 class CRUDClass {
  
     const DB_HOST = 'localhost';
-    const DB_NAME = 'responsi_browns';      //'browns'  'responsi_browns'
-    const DB_USER = 'responsi_gavin';        //'root'    'responsi_gavin'    
-    const DB_PASSWORD = 'T^Wyc_g7LsXX';        //''        'T^Wyc_g7LsXX'
+    const DB_NAME = 'browns';      //'browns'  'responsi_browns'
+    const DB_USER = 'root';        //'root'    'responsi_gavin'    
+    const DB_PASSWORD = '';        //''        'T^Wyc_g7LsXX'
         
     public function __construct() {
         // open database connection
@@ -13,9 +13,7 @@ class CRUDClass {
  
         try {
             $this->pdo = new PDO($conStr, self::DB_USER, self::DB_PASSWORD);
-            //for prior PHP 5.3.6
-            //$conn->exec("set names utf8");
-            //echo 'connection success';
+            
         } catch (PDOException $e) {
             echo $e->getMessage();
         }
@@ -29,6 +27,47 @@ class CRUDClass {
     }
  
 
+    
+function dbRead($sql) {
+         
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute();
+        $resultSet = $stmt->fetchAll(PDO::FETCH_ASSOC);
+       
+ 
+        return $resultSet;
+    }
+    
+function dbDelete($sql){
+       $stmt = $this->pdo->prepare($sql);
+       try{
+            $stmt->execute();
+       }catch(Exception $e){
+            $error_message = 'item was not deleted';
+       }
+       if(isset($error_message)){
+          return $error_message;     
+       }
+       
+}
+
+function dbUpdate($image ){
+     //REPLACE INTO my_table (pk_id, col1) VALUES (5, '123');
+     $sql="Replace INTO splash (id, image) VALUES(1, '" . $image . "')"; 
+     
+     $stmt = $this->pdo->prepare($sql);
+     /*$image = "'" . $image . "'";
+     $stmt->bindParam(':image', $image , PDO::PARAM_LOB);//param large object*/
+     return $stmt->execute();
+      //try{
+//            
+//       }catch(Exception $e){
+//            $error_message = 'item was not upddated';
+//       }
+//       if(isset($error_message)){
+//          return $error_message;     
+//       }
+     }
 function dbCreate($product_id, $product_name, $product_description, $binImgFile, $image_type, $price, $tag1, $tag2, $tag3) {
         
         //if contains blob type data
@@ -84,48 +123,6 @@ function dbCreateTool($image, $tool_make, $tool_name, $tool_desc, $day_price, $w
  
         return $stmt->execute();
     }*/
-    
-function dbRead($sql) {
-         
-        $stmt = $this->pdo->prepare($sql);
-        $stmt->execute();
-        $resultSet = $stmt->fetchAll(PDO::FETCH_ASSOC);
-       
- 
-        return $resultSet;
-    }
-    
-function dbDelete($sql){
-       $stmt = $this->pdo->prepare($sql);
-       try{
-            $stmt->execute();
-       }catch(Exception $e){
-            $error_message = 'item was not deleted';
-       }
-       if(isset($error_message)){
-          return $error_message;     
-       }
-       
-}
-
-function dbUpdate($image ){
-     //REPLACE INTO my_table (pk_id, col1) VALUES (5, '123');
-     $sql="Replace INTO splash (id, image) VALUES(1, '" . $image . "')"; 
-     
-     $stmt = $this->pdo->prepare($sql);
-     /*$image = "'" . $image . "'";
-     $stmt->bindParam(':image', $image , PDO::PARAM_LOB);//param large object*/
-     return $stmt->execute();
-      //try{
-//            
-//       }catch(Exception $e){
-//            $error_message = 'item was not upddated';
-//       }
-//       if(isset($error_message)){
-//          return $error_message;     
-//       }
-     }
-    
     
     
  }  
